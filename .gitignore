@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+.env.staging
+.env.*.local
+
+# Note: .env.example should be committed
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Generated favicons (regenerated from logo.jpg)
+public/favicon-*.png
+
+# Keep these (do NOT ignore):
+# .env.example
+# .claude/
+# CLAUDE.md
+# public/logo.jpg
+# public/favicon.png
+temp_auto_push.bat
+temp_interactive_push.bat
+
+branch_structure.json
