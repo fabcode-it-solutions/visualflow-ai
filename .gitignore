@@ -8,10 +8,6 @@ build/
 .vite/
 
 # Environment variables — NEVER commit these
-.env
-.env.local
-.env.production
-.env.staging
 .env.*.local
 
 # Note: .env.example should be committed
@@ -27,7 +23,6 @@ npm-debug.log*
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -56,3 +51,4 @@ temp_auto_push.bat
 temp_interactive_push.bat
 
 branch_structure.json
+config.bat
